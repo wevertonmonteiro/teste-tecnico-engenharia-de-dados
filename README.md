@@ -1,15 +1,16 @@
 # Desafio Técnico - Engenharia de Dados
 
 Este projeto contém a resolução dos desafios propostos utilizando SQL sobre os dados disponibilizados.
-Neste arquivo, esclareço passo a passo como foram feitas as resoluçôes dos desafios.
+Neste arquivo, esclareço passo a passo como foram feitas as resoluções dos desafios.
 
 As consultas foram desenvolvidas e executadas no notebook do projeto utilizando pysqldf( Usando o modelo de notebook disponibilizado por voces).
 
 Para rodar o notebook:
 1) acesse https://colab.research.google.com/,
-2) clique na opçao Fazer upload de notebook
-3) seleciona opçao Upload, e clique em Procurar, selecione o notebook na pasta do computador e clique em abrir.
-4) no menu lateral esquerdo, seleciona Arquivos, e carregue os csv necessarios para executar os desafios.
+2) clique na opção Fazer upload de notebook
+3) selecione opção Upload, e clique em Procurar, selecione o notebook na pasta do computador e clique em abrir.
+4) no menu lateral esquerdo, selecione Arquivos, e carregue os csv necessários para executar os desafios.
+5) execute as células do notebook em ordem.
 
 ## Desafio 1 - Métricas mensais de pedidos
 
@@ -72,7 +73,7 @@ Em seguida, foi utilizado NOT EXISTS para buscar produtos que nunca apareceram n
 
 A consulta final não retornou produtos.
 
-Os 800 produtos distintos já foram rank_preco = 1 em pelo menos um pedido, fazendo com que nenhum produto atendesse simultaneamente às duas condições do desafio
+Os 800 produtos distintos já foram rank_preco = 1 em pelo menos um pedido, fazendo com que nenhum produto atendesse simultaneamente às duas condições do desafio.
 
 ## Observações
 
