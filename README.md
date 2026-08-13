@@ -5,6 +5,12 @@ Neste arquivo, esclareço passo a passo como foram feitas as resoluçôes dos de
 
 As consultas foram desenvolvidas e executadas no notebook do projeto utilizando pysqldf( Usando o modelo de notebook disponibilizado por voces).
 
+Para rodar o notebook:
+1) acesse https://colab.research.google.com/,
+2) clique na opçao Fazer upload de notebook
+3) seleciona opçao Upload, e clique em Procurar, selecione o notebook na pasta do computador e clique em abrir.
+4) no menu lateral esquerdo, seleciona Arquivos, e carregue os csv necessarios para executar os desafios.
+
 ## Desafio 1 - Métricas mensais de pedidos
 
 Foi realizada uma análise mensal dos pedidos, considerando apenas os status completed e delivered.
